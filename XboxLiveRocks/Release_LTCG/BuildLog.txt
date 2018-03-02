@@ -1,0 +1,37 @@
+﻿Build started 8/7/2017 11:35:08 PM.
+     1>Project "C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\XboxLiveRocks.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../xkelib/ /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _XBOX /GF- /Gm /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"StdAfx.h" /Fp"C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\XboxLiveRocks.pch" /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP stdafx.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../xkelib/ /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _XBOX /GF- /Gm /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\XboxLiveRocks.pch" /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP conn.cpp hv.cpp kv.cpp server.cpp game.cpp sys.cpp tools.cpp XboxLiveRocks.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         XboxLiveRocks.cpp
+         tools.cpp
+         sys.cpp
+         game.cpp
+         server.cpp
+     1>server.cpp(356): warning C4101: 'result' : unreferenced local variable
+     1>server.cpp(357): warning C4101: 'overlapped' : unreferenced local variable
+         kv.cpp
+         hv.cpp
+         conn.cpp
+         Generating Code...
+     1>c:\users\cyanide\desktop\xboxliverocks\xboxliverocks\server.cpp(201): warning C4715: 'redeemKvToken' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\XboxLiveRocks.exe" /INCREMENTAL:NO /NOLOGO xapilib.lib d3d9ltcg.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3ltcg.lib x3daudioltcg.lib xmcoreltcg.lib vcomp.lib XBLAPI.lib xkelib.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\XboxLiveRocks.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /TLBID:1 /RELEASE /IMPLIB:"C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\XboxLiveRocks.lib" Release_LTCG\conn.obj
+         Release_LTCG\hv.obj
+         Release_LTCG\kv.obj
+         Release_LTCG\server.obj
+         Release_LTCG\stdafx.obj
+         Release_LTCG\game.obj
+         Release_LTCG\sys.obj
+         Release_LTCG\tools.obj
+         Release_LTCG\XboxLiveRocks.obj /dll /ALIGN:128,4096 /XEX:NO
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>XBLAPI.lib(XBLAPI.obj) : warning LNK4204: 'C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\XboxLiveRocks.xex" /config:"XboxLiveRocks.xml" "C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\Release_LTCG\XboxLiveRocks.exe" 
+     1>Done Building Project "C:\Users\Cyanide\Desktop\XboxLiveRocks\XboxLiveRocks\XboxLiveRocks.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.65

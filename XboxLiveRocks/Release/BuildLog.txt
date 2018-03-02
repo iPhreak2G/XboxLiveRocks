@@ -1,0 +1,41 @@
+﻿Build started 2/13/2018 4:00:34 PM.
+     1>Project "E:\XboxLiveRocks\XboxLiveRocks\XboxLiveRocks.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\XboxLiveRocks.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Release\XboxLiveRocks.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../xkelib /IUtils /Zi /nologo /W3 /WX- /Od /D NDEBUG /D _XBOX /GF- /Gm /MT /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"StdAfx.h" /Fp"E:\XboxLiveRocks\XboxLiveRocks\Release\XboxLiveRocks.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP stdafx.c /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         stdafx.c
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../xkelib /IUtils /Zi /nologo /W3 /WX- /Od /D NDEBUG /D _XBOX /GF- /Gm /MT /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"E:\XboxLiveRocks\XboxLiveRocks\Release\XboxLiveRocks.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP conn.c hv.c serv.c title.c tools.c xbox.c XboxLiveRocks.c /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         XboxLiveRocks.c
+         xbox.c
+         tools.c
+         title.c
+         serv.c
+         hv.c
+         conn.c
+         Generating Code...
+     1>e:\xboxliverocks\xboxliverocks\serv.c(190): warning C4715: 'Serv::Communicate' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"E:\XboxLiveRocks\XboxLiveRocks\Release\XboxLiveRocks.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\XboxLiveRocks\xkelib\Build\xkelib\Release21256.0 /LIBPATH:E:\XboxLiveRocks\xkelib xapilib.lib d3d9.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3.lib x3daudio.lib xmcore.lib vcomp.lib xkelib.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\XboxLiveRocks\XboxLiveRocks\Release\XboxLiveRocks.pdb" /STACK:"262144","262144" /TLBID:1 /RELEASE /IMPLIB:"E:\XboxLiveRocks\XboxLiveRocks\Release\XboxLiveRocks.lib" Release\conn.obj
+         Release\hv.obj
+         Release\serv.obj
+         Release\title.obj
+         Release\stdafx.obj
+         Release\tools.obj
+         Release\xbox.obj
+         Release\XboxLiveRocks.obj /dll /ignore:4089 /ALIGN:128,4096 /XEX:NO
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"E:\XboxLiveRocks\XboxLiveRocks\Release\XboxLiveRocks.xex" "E:\XboxLiveRocks\XboxLiveRocks\Release\XboxLiveRocks.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.20871.0
+         (c)2011 Microsoft Corporation. All rights reserved.
+         
+       FinalizeBuildStatus:
+         Deleting file "Release\XboxLiveRocks.unsuccessfulbuild".
+         Touching "Release\XboxLiveRocks.lastbuildstate".
+     1>Done Building Project "E:\XboxLiveRocks\XboxLiveRocks\XboxLiveRocks.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.59
